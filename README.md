@@ -77,10 +77,10 @@ Create a `.env` file in the root directory:
 PORT=3005
 
 # PostgreSQL Database (Prisma)
-DATABASE_URL="postgresql://username:password@localhost:5432/taskdb?schema=public"
+DATABASE_URL="POSTGRESS_DATABASE"
 
 # MongoDB Database
-MONGODB_URI="mongodb://localhost:27017/tasks"
+MONGODB_URI="MONGODB_DATABASE"
 
 # JWT Secret
 JWT_SECRET="your-super-secret-jwt-key-change-this"
